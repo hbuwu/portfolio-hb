@@ -1,19 +1,33 @@
 import './App.css';
 import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
 import Layout from './components/Layout';
-import Home from './pages/Home';
+import Intro from './pages/Intro';
+import About from './pages/About';
+import Commissions from './pages/Commissions';
+import Contact from './pages/Contact';
 
 
 function App() {
   return (
     <Router>
-      <Layout>
+      
         <Switch>
           <Route exact path='/'>
-            <Home />
+            <Intro />
           </Route>
+          <Layout>
+          <Route exact path='/about'>
+            <About />
+          </Route>
+          <Route exact path='/commissions'>
+            <Commissions />
+          </Route>
+          <Route exact path='/contact'>
+            <Contact />
+          </Route>
+          </Layout>
         </Switch>
-      </Layout>
+
     </Router>
   );
 }

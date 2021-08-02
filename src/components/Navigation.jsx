@@ -9,9 +9,18 @@ export default function Navigation() {
             <ul>
                 <li>
                     <IoIosArrowForward />
-                    <Link to='/'>Home</Link>
+                    <Link to='/about'>About me</Link>
+                </li>
+                <li>
+                    <IoIosArrowForward />
+                    <Link to='/commissions'>Commissions</Link>
+                </li>
+                <li>
+                    <IoIosArrowForward />
+                    <Link to='/contact'>Contact</Link>
                 </li>
             </ul>
+            
         </nav>
 
     );
