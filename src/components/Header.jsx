@@ -4,7 +4,7 @@ import Navigation from './Navigation';
 export default function Header() {
     return (
         <header>
-            <h1>Hanori</h1>
+            <img src='./images/logo.png' alt='Hanori Logo' className="headerLogo"></img>
             <Navigation />
         </header>
     );
