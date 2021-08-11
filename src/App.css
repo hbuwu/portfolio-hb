@@ -2,6 +2,7 @@ body {
   background-color: rgb(12, 12, 12);
   color: white;
   text-align: center;
+  font-family: 'Roboto', sans-serif;
 }
 
 ul, li {
@@ -39,7 +40,7 @@ a:visited {
 
 .introButton {
   display: block;
-  width: 10%;
+  width: 4rem;
   margin: 0 auto 2rem;
   border: 1px solid white;
   padding: 1.25rem 2rem;
@@ -54,7 +55,7 @@ a:visited {
 }
 
 .introLogo {
-  width: 50%;
+  width: 20rem;
   height: auto;
   margin: 0 auto;
 }
@@ -63,4 +64,10 @@ a:visited {
   margin-top: 0;
   margin-bottom: 2rem;
   font-size: 1.4rem;
+}
+
+.headerLogo {
+  width: 5rem;
+  height: auto;
+  margin: 0 auto;
 }
