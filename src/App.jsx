@@ -5,6 +5,7 @@ import Intro from './pages/Intro';
 import About from './pages/About';
 import Commissions from './pages/Commissions';
 import Contact from './pages/Contact';
+import Work1 from './pages/Work1';
 
 
 function App() {
@@ -24,6 +25,9 @@ function App() {
           </Route>
           <Route exact path='/contact'>
             <Contact />
+          </Route>
+          <Route exact path='/workplaceholder'>
+            <Work1 />
           </Route>
           </Layout>
         </Switch>

@@ -7,20 +7,10 @@ export default function Navigation() {
 
         <nav>
             <ul>
-                <li>
-                    <IoIosArrowForward />
-                    <Link to='/about'>About me</Link>
-                </li>
-                <li>
-                    <IoIosArrowForward />
-                    <Link to='/commissions'>Commissions</Link>
-                </li>
-                <li>
-                    <IoIosArrowForward />
-                    <Link to='/contact'>Contact</Link>
-                </li>
+                <Link to='/about'><li><IoIosArrowForward />Home // My Work</li></Link>
+                <Link to='/commissions'><li><IoIosArrowForward />Commissions</li></Link>
+                <Link to='/contact'><li><IoIosArrowForward />Contact</li></Link>
             </ul>
-            
         </nav>
 
     );
