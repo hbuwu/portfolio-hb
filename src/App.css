@@ -1,21 +1,61 @@
+/* Site Container */
+
 body {
   background-color: rgb(12, 12, 12);
   color: white;
   text-align: center;
   font-family: 'Roboto', sans-serif;
+  overflow-x: hidden;
+  line-height: 1.4rem;
 }
+
+/* Text */
+
+h3 {
+  margin: 2rem 0;
+}
+
+.highlightText {
+  font-weight: bold;
+}
+
+/* Navigation */
 
 ul, li {
   list-style: none;
   margin: 0;
-  padding: 0;
+  padding: 0 0 0 1rem;
+  text-align: left;
+  width: 100%;
 }
 
 ul {
   display: flex;
   justify-content: center;
-  flex-direction: row;
+  flex-direction: column;
 }
+
+li {
+  padding: 0.4rem;
+  background-color: rgba(255, 255, 255, 0.021);
+  transition-duration: 0.5s;
+}
+
+li:hover {
+  background-color: rgba(255, 255, 255, 0.404);
+}
+
+nav a {
+  width: 100%;
+}
+
+.headerLogo {
+  width: 7rem;
+  height: auto;
+  margin: 0 auto;
+}
+
+/* Links */
 
 a {
   text-decoration: none;
@@ -25,6 +65,24 @@ a {
 a:visited {
   color: white;
 }
+
+/* Images  */
+
+img {
+  width: 80vw;
+  height: auto;
+}
+
+/* Footer */
+
+footer {
+  position: fixed;
+  width: 100vw;
+  bottom: 0;
+  font-size: 0.7rem;
+}
+
+/* Intro Page */
 
 .introScreen {
   width: 100vw;
@@ -66,8 +124,24 @@ a:visited {
   font-size: 1.4rem;
 }
 
-.headerLogo {
-  width: 5rem;
-  height: auto;
-  margin: 0 auto;
+/* About Page */
+
+.aboutBody {
+  padding: 0 2rem;
 }
+
+.aboutDescription {
+  border-bottom: 1px solid white;
+  padding-bottom: 2rem
+}
+
+/* Work Component */
+
+h4 {
+  padding-bottom: 1rem;
+  border-bottom: 1px solid white;
+  width: 80%;
+  margin: 1rem auto;
+}
+
+/* Works Component */
