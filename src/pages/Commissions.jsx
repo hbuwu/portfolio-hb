@@ -2,6 +2,9 @@ import React from 'react';
 
 export default function Commissions() {
     return (
-        <h1>dab</h1>
+        <div className='commissionsBody'>
+            <h1>Commissions</h1>
+            <div>More info soon</div>
+        </div>
     )
 }

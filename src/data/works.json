@@ -1,15 +1,42 @@
 [
     {
-        "link": "/workplaceholder",
-        "pic": "./images/logo.png",
-        "alt": "Dab",
-        "title": "Nice Work"
+        "link": "/touch",
+        "pic": "./images/touchPicture.jpg",
+        "alt": "Touch",
+        "title": "Touch"
     },
     {
-        "link": "/workplaceholder",
+        "link": "/boc2021",
         "pic": "./images/logo.png",
-        "alt": "Dab",
-        "title": "Nice Work Number 2"
+        "alt": "Belgian Osu Cup 2021 Banner",
+        "title": "Belgian osu! Cup 2021 Branding"
+    }
+    ,
+    {
+        "link": "/gaming-pacifier",
+        "pic": "./images/gamingPacifierPicture.png",
+        "alt": "Gaming Pacifier",
+        "title": "Gaming Pacifier"
+    },
+    {
+        "link": "/topbelgium2020",
+        "pic": "./images/logo.png",
+        "alt": "Top 15 Belgian osu! Players 2020 Thumbnail",
+        "title": "Top 15 Belgian osu! Players 2020"
+    }
+    ,
+    {
+        "link": "/hexdesignagency",
+        "pic": "./images/hexDesignPicture.jpg",
+        "alt": "Hex Design Agency Website",
+        "title": "Hex Design Agency Website"
+    }
+    ,
+    {
+        "link": "/other",
+        "pic": "./images/logo.png",
+        "alt": "Other",
+        "title": "Other Work (Web + Graphics)"
     }
 ]
 
