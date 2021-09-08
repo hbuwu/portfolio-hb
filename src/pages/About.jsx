@@ -10,7 +10,7 @@ export default function About() {
                     <p>
                         Hello! My name is Hendrik, but online I'm known as either Hanori or hb.
                     </p>
-                    <h3>Ok sure but what do you do...</h3>
+                    <h3>Ok sure, but what do you do...</h3>
                     <p className='aboutDescription'>
                         I'm a 22 year old graphic designer from Belgium. I have a diverse skillset ranging from <span className='highlightText'>web design</span> to <span className='highlightText'>photo and video editing</span>. However, I'm always up to learn new aspects of web and graphic design! \o/
                     </p>

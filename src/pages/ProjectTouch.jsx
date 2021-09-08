@@ -4,7 +4,7 @@ export default function Touch() {
     return (
         <div className='workContainer'>
             <h1>Touch</h1>
-            <a href='https://gracious-dijkstra-a3727e.netlify.app/' rel='noreferrer' target='_blank'><img src='./images/touchPicture.jpg' alt='Touch' /></a>
+            <a href='https://gracious-dijkstra-a3727e.netlify.app/' rel='noopener noreferrer' target='_blank'><img src='./images/touchPicture.jpg' alt='Touch' /></a>
             <p className='imageCaption'>Click picture above to visit website.</p>
             <h2>Process</h2>
             <p>This promotional website was part of a bigger project I had to do in school. This site was made in conjunction with a poster that had to be made with a completely arbitrary way of designing it.</p>

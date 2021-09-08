@@ -153,7 +153,7 @@ footer a:hover {
 
 .aboutDescription {
   border-bottom: 1px solid white;
-  padding-bottom: 2rem
+  padding-bottom: 2rem;
 }
 
 /* 1.9 Work Component */
@@ -189,6 +189,27 @@ p {
   aspect-ratio: 16/9;
   border-radius: 0.3rem;
   width: 100%;
+}
+
+/* 1.11 Contact Page */
+
+.contactBox {
+  margin: 3rem auto;
+}
+
+.contactBox a {
+  transition-duration: 0.3s;
+}
+
+.contactBox a:hover {
+  color: rgb(135, 109, 153);
+  transition-duration: 0.3s;
+}
+
+/* 1.12 Videos */
+
+iframe {
+  margin: 0 auto;
 }
 
 /* 2. Desktop size*/
@@ -233,4 +254,19 @@ p {
   .workContainer p {
     width: 85%;
   }
+
+  .workContainer h1 {
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+  }
+
+  /* 2.5 About */
+  .aboutDescription {
+    width: 60%;
+  }
+
+  .aboutIntro p {
+    margin-bottom: 5rem;
+  }
+
 }

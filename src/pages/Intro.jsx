@@ -7,7 +7,7 @@ export default function Intro() {
             <div className='introScreen'>
                 <div className='introBox'>
                     <img src='./images/logo.png' alt='Hanori Logo' className="introLogo"></img>
-                    <p className='introSubTitle'>Graphic Design</p>
+                    <p className='introSubTitle'>Graphic and Web Design</p>
                     <Link to='/about' className='introButton'>Continue</Link>
                 </div>
             </div>
