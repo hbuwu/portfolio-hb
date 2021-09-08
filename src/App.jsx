@@ -8,7 +8,7 @@ import Contact from './pages/Contact';
 import ProjectTouch from './pages/ProjectTouch';
 import Boc2021 from './pages/ProjectBoC2021';
 import GamingPacifier from './pages/ProjectGamingPacifier';
-import Top2021 from './pages/ProjectTop2021';
+import Top2020 from './pages/ProjectTop2020';
 import HexDesign from './pages/ProjectHexDesign';
 import Other from './pages/ProjectOther';
 
@@ -39,7 +39,7 @@ function App() {
             <GamingPacifier />
           </Route>
           <Route exact path='/topbelgium2020'>
-            <Top2021 />
+            <Top2020 />
           </Route>
           <Route exact path='/hexdesignagency'>
             <HexDesign />
