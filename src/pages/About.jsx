@@ -12,7 +12,7 @@ export default function About() {
                     </p>
                     <h3>Ok sure, but what do you do...</h3>
                     <p className='aboutDescription'>
-                        I'm a 22 year old graphic designer from Belgium. I have a diverse skillset ranging from <span className='highlightText'>web design</span> to <span className='highlightText'>photo and video editing</span>. However, I'm always up to learn new aspects of web and graphic design! \o/
+                        I'm a 23 year old graphic designer from Belgium. I have a diverse skillset ranging from <span className='highlightText'>web design</span> to <span className='highlightText'>photo and video editing</span>. However, I'm always up to learn new aspects of web and graphic design! \o/
                     </p>
                     <h3>Some of my work</h3>
                     <Works></Works>
