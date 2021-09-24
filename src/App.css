@@ -13,6 +13,10 @@ body {
 
 /* 1.2 Text */
 
+h1 {
+  margin: 2rem 0 0;
+}
+
 h3 {
   margin: 2rem 0;
 }
@@ -195,6 +199,7 @@ p {
 
 .contactBox {
   margin: 3rem auto;
+  display: grid;
 }
 
 .contactBox a {
@@ -205,6 +210,25 @@ p {
   color: rgb(135, 109, 153);
   transition-duration: 0.3s;
 }
+
+.contactElement {
+
+}
+
+.contactElement a {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+.contactElement h3 {
+  margin-left: 2rem;
+  padding: 10px 0;
+}
+
+.contactBox svg {
+    width: 15%;
+}
+
 
 /* 1.12 Videos */
 
@@ -267,6 +291,38 @@ iframe {
 
   .aboutIntro p {
     margin-bottom: 5rem;
+  }
+
+  /* 2.6 Contact */
+
+  .contactContainer h1 {
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+  }
+  .contactBox {
+    grid-template-columns: repeat(3,1fr);
+  }
+
+  .contactElement a {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  .contactElement h3 {
+    margin: 0;
+    padding: 0;
+  }
+  
+  .contactBox svg {
+      width: 15%;
+      margin: 0 auto;
+  }
+
+  /* 2.7 Commissions */
+  .commissionsBody h1 {
+      margin-top: 3rem;
+      margin-bottom: 3rem;
   }
 
 }
