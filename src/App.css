@@ -61,6 +61,16 @@ nav a {
   width: 100%;
 }
 
+nav a svg{
+  height: 100%;
+  margin-right: 0.3rem;
+}
+
+nav a li {
+  display: flex;
+  align-items: center;
+}
+
 .headerLogo {
   width: 7rem;
   height: auto;
@@ -176,6 +186,17 @@ h4 {
   border-radius: 0.3rem;
 }
 
+.containerWork {
+  border-radius: 0.3rem;
+  transition-duration: 0.3s;
+}
+
+.containerWork:hover {
+  transform: scale(1.03);
+  background-color: rgba(135, 109, 153, 0.233);
+  transition-duration: 0.3s;
+}
+
 /* 1.10 Work Page */
 
 .workContainer {
@@ -209,10 +230,6 @@ p {
 .contactBox a:hover {
   color: rgb(135, 109, 153);
   transition-duration: 0.3s;
-}
-
-.contactElement {
-
 }
 
 .contactElement a {
@@ -253,6 +270,10 @@ iframe {
     display: flex;
     justify-content: center;
     flex-direction: row;
+  }
+
+  nav li, nav svg {
+    justify-content: center;
   }
 
   .headerLogo {
