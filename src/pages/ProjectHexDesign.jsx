@@ -4,7 +4,7 @@ export default function HexDesign() {
     return (
         <div className='workContainer'>
             <h1>Hex Design Agency Website</h1>
-            <a href='https://hashtaghex.agency/' rel='noopener noreferrer' target='_blank'><img src='./images/hexDesignPicture.jpg' alt='Touch' /></a>
+            <a href='https://jovial-curran-15c88d.netlify.app/' rel='noopener noreferrer' target='_blank'><img src='./images/hexDesignPicture.jpg' alt='Touch' /></a>
             <p className='imageCaption'>Click picture above to visit website.</p>
             <h2>Process</h2>
             <p>This website was made as part of a pop-up design agency a few classmates and I made for one of our subjects. The site showcases the work we had done for certain non-profit organizations.</p>
